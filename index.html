@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bell of the Ball</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    </head>
+
+    <body>
+        <wrapper class="navigation">
+    
+            <nav class="main-nav">
+                <div class="primary-nav" id="mm">
+                    <a href="/" class="logo"><img src="assets/BOTB-Logo.png" class="logo-img" alt="Bell of The Ball Logo"></a>
+    
+                    <!-- Mobile menu -->
+                    <button class="hamburger" id="hamburger">&#9776;</button>
+                    
+                    <ul class="nav-links" id="nav-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </wrapper>
+
+
+
+        <div class="img-container">
+            <img src="assets/BOTB-Logo-transparent-bg.png" class="landing-img" alt="Welcome">
+            <h1>Bell of the Ball</h1>
+            <p>Slogan</p>
+        </div>
+
+        <div class="navigate-btn">
+            <button href="#">Learn more</button>
+        </div>
+
+
+
+
+
+        <footer class="footer-content">
+            <p>temp</p>
+        </footer>
+
+    
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('nav-links');
+    
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        </script>
+    </body>    
+</html>
